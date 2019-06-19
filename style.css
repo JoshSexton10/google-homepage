@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+nav {
+    flex-grow: 0;
+}
+
+/*Fix flex properties to get main section to fill to page*/
+section {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    flex-grow: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+}
+
+.search-bar {
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+ul.footer-bar {
+    background-color: lightgray;
+}
+
+li {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 8px 12px;
+    text-decoration: none;
+    float: left;
+}
+
+li a {
+    color: dimgray;
+    text-align: center;
+    text-decoration: none;
+}
+
+li.right-nav {
+    float: right;
+}
+
+li.right-foot {
+    float: right;
+}
